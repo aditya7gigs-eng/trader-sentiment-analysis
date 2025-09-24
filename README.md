@@ -5,7 +5,7 @@ This project analyzes trader behavior based on sentiment and market data.
 ## 📂 Dataset
 The datasets are hosted on Google Drive due to size limitations:
 
-- [Historical Trading Data CSV](https://drive.google.com/file/d/1IAfLZwu6rJzyWKgBToqwSmmVYU6VbjVs/viewusp=sharing)
+- [Historical Trading Data CSV](https://drive.google.com/file/d/1IAfLZwu6rJzyWKgBToqwSmmVYU6VbjVs/view?usp=sharing)
 - [Fear Greed Index CSV]:(https://drive.google.com/file/d/1PgQC0tO8XN-wqkNyghWc_-mnrYv_nhSf/view?usp=sharing)
 
 Download them and place them in the same folder as the notebook before running.
