@@ -1,0 +1,93 @@
+1. Objective
+
+The objective of this project is to explore the relationship between trader performance and Bitcoin market sentiment (Fear, Greed, Extreme Greed, Neutral).
+We aim to uncover hidden patterns in trading behavior and deliver actionable insights to drive smarter trading strategies.
+
+2. Datasets
+
+Historical Trader Data: trade-level data (account, symbol, execution price, size, side, closed PnL, etc.)
+
+Bitcoin Fear & Greed Index: daily sentiment scores (Fear, Greed, Neutral, Extreme Greed).
+
+Datasets are hosted on Google Drive:
+
+Historical Trading Data
+
+Fear & Greed Index
+
+3. Steps Followed
+
+Data Loading & Cleaning
+
+Loaded trading and sentiment datasets
+
+Converted timestamps, merged on date
+
+Removed inconsistencies
+
+Exploratory Data Analysis (EDA)
+
+Trade distribution by sentiment phases
+
+Descriptive stats for PnL, win rates
+
+Win-Rate & PnL Analysis
+
+Compared average PnL and win rates across sentiment phases
+
+Observed how performance shifts in Fear vs Greed phases
+
+Trade Side Analysis (BUY vs SELL)
+
+Split by side
+
+Found SELL trades dominate during greed phases
+
+Time Series Analysis
+
+Visualized sentiment alongside trader PnL over time
+
+Identified volatility during extreme sentiment
+
+Strategy Recommendations
+
+Built a strategy table summarizing actions for each sentiment condition
+
+4. Key Insights
+📌 Sentiment vs Performance
+
+Greed/Extreme Greed: Higher SELL dominance, stronger win rates (~52–61%)
+
+Fear: Traders attempt more BUYs, but win rate weaker (~41%)
+
+Neutral: Win rate lowest (~32%), trading less reliable
+
+📌 Time Series
+
+Large PnL swings observed during Extreme Greed and Fear phases
+
+Neutral sentiment shows stability but low profitability
+
+5. Strategy Table
+Sentiment	Observed Behavior	Win Rate	Suggested Action
+Extreme Greed	SELL > BUY	~52%	Prefer shorts, caution longs
+Greed	SELL dominant	~61%	Short aggressively
+Fear	BUY dominant	~41%	Go long cautiously
+Neutral	Mixed, weak edge	~32%	Avoid trading
+6. Business Value
+
+Aligns trading strategies with market psychology
+
+Helps in risk management by avoiding weak phases (neutral sentiment)
+
+Provides data-backed entry/exit insights for traders and analysts
+
+7. Conclusion
+
+Trader performance is strongly influenced by sentiment.
+
+Greed phases provide higher SELL profitability.
+
+Fear phases encourage BUYs but with lower success.
+
+Neutral phases are least favorable for trading.
