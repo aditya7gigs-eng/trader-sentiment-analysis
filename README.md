@@ -60,7 +60,7 @@ Extreme Greed	SELL > BUY	~52%	Prefer shorts, caution longs
 Greed	SELL dominant	~61%	Short aggressively
 Fear	BUY dominant	~41%	Go long cautiously
 Neutral	Mixed, weak edge	~32%	Avoid trading
-🎯 Business Objective
+ Business Objective
 
 Help traders align strategies with market psychology
 
@@ -68,7 +68,7 @@ Provide risk management insights (avoid trading during neutral phases)
 
 Improve decision-making with data-driven sentiment analysis
 
-👤 Author
+ Author
 
 Aditya
-📌 GitHub: aditya7gigs-eng
+ GitHub: aditya7gigs-eng
