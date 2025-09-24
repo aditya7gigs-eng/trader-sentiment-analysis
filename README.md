@@ -7,9 +7,9 @@ The goal is to understand how different sentiment phases (fear, greed, extreme g
 
 The datasets are hosted on Google Drive due to size limitations:
 
-Historical Trading Data CSV
+- [Historical Trading Data CSV](https://drive.google.com/file/d/1IAfLZwu6rJzyWKgBToqwSmmVYU6VbjVs/view?usp=sharing)  
+- [Fear & Greed Index CSV](https://drive.google.com/file/d/1PgQC0tO8XN-wqkNyghWc_-mnrYv_nhSf/view)  
 
-Fear & Greed Index CSV
 
 👉 Download them and place in the same folder as the notebook before running.
 
